@@ -48,8 +48,58 @@ article {
     text-decoration: none;
 }
 
+
 .hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* H1 overlay heading on hero image */
+.hero h1 {
     position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    padding: 16px;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: #ffffff;
+    opacity: 0.85;
+    font-family: var(--heading-font);
+    z-index: 2;
+}
+
+/* Hero article block over image */
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 16px;
+    font-family: var(--body-font);
+    z-index: 2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+/* Image inside hero article */
+.hero article img {
+    float: right;
+    width: 125px;
+    margin-left: 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* .hero {
+    position: relative;
 }
 
 .hero img {
@@ -59,7 +109,7 @@ article {
 }
 
 h1 {
-    position: relative;
+    position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
@@ -72,4 +122,4 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
-}
+} */
