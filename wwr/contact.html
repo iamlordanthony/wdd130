@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Contact Us - White Water Rafting</title>
+    <meta name="description"
+        content="Contact page for reaching out to White Water Rafting company for inquiries, reservations, or feedback.">
+    <meta name="author" content="Lord Anthony Senanu">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Forum&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/z-wwr-blue.png" alt="Rafting Company Logo" class="logo">
+        <h1>White Water Rafting</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact Us</h2>
+
+        <section class="company-info">
+            <h3>Our Location</h3>
+            <p>123 River Rapids Road<br>Agbozume, Volta Region, Ghana</p>
+            <p><strong>Phone:</strong> +233 24 123 4567</p>
+            <p><strong>Email:</strong> info@whitewaterrafting.com</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="300" allowfullscreen=""
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="employees">
+            <h3>Meet Our Team</h3>
+            <div class="employee-gallery">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Guide Anna">
+                    <figcaption>Anna - Lead Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Coordinator Ben">
+                    <figcaption>Ben - Tour Coordinator</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Manager Clara">
+                    <figcaption>Clara - Operations Manager</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <p>Purpose of Message:</p>
+                <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
+                <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
+                <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <label>
+                    <input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>©2025 White Water Rafting. All rights reserved. | Lord Anthony Senanu</p>
+        <div class="socialmedia">
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="images/x.png" alt="X"></a>
+        </div>
+        <p><a href="images/contact-wireframe.png" target="_blank">View Contact Page Wireframe</a></p>
+    </footer>
+
+</body>
+
+</html>
